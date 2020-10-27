@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html, body {
+    background: #ece5dd;
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+}
+
+header {
+    height: 130px;
+    width: 100%;
+    background: #128c7e;
+}
+
+.container {
+    max-width: 73%;
+    height: 95vh;
+    margin: -110px auto;
+    background: #fff;
+
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.096);
+
+    display: grid;
+    grid-template-columns: 1.3fr 3fr;
+}
+
+.top {
+    width: 100%;
+    background: #ededed;
+    padding: 10px;
+}
+
+.container .left {
+    border-right: 1px solid  rgba(0, 0, 0, 0.096);
+}
+
+.container .left .top img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+
+.container .left .search {
+    padding: 10px;
+    background: #f6f6f6;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.096);    
+
+}
+
+.container .left .search input{
+    width: 100%;
+    border: 0;
+    height: 35px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.container .right {    
+    background-color: #f8f9fa;
+}
+
+.container .right .contant {
+    max-width: 50%;
+    margin: 80px auto 0;
+
+    text-align: center;
+}
+
+.container .right .contant h1 {
+    margin-top: 38px;
+
+    color: #525252;
+    font-weight: 300;
+    font-size: 36px;
+
+    line-height: 30px;
+}
+
+.container .right .contant p {
+    margin: 40px;
+
+    color: #525252;
+    font-size: 13px;
+
+    line-height: 20px;
+}
+
+.container .right .contant a {
+    text-decoration: none;
+    color: #07bc4c;
+}
+
+hr {
+    background: rgba(0, 0, 0, 0.096);
+}
